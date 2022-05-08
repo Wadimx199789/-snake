@@ -20,8 +20,10 @@ body {
 
 #snake-head{
     z-index: 2;
-    background: transparent !important;
-    box-shadow: none !important;
+    width: 20px;
+    height: 20px;
+    box-shadow: 0px 0px 6px -2px rgb(0 0 0 / 75%);
+    background: rgb(133, 185, 31);
 }
 #snake-head img{
     position: relative;
